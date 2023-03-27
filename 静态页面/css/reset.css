@@ -1,0 +1,34 @@
+/* 清除全局默认样式 */
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* 设置全局默认字体、默认字号 */
+    font-family: "Microsoft Yahei", 'SimSun';
+    font-size: 16px;
+}
+
+/* 清除列表默认样式 */
+ul,
+ol {
+    list-style: none;
+}
+
+/* 设置链接样式 */
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(69, 135, 189);
+}
+
+/* 清除文本框默认样式 */
+textarea {
+    resize: none;
+    outline: none;
+    overflow: hidden;
+}
